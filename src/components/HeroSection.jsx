@@ -61,14 +61,14 @@ export const HeroSection = () => {
               variants={textVariants}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              {" "}Bhautik
+              {" "}Bhavik
             </motion.span>
             <motion.span
               className="text-gradient ml-2"
               variants={textVariants}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              {" "}Rathod
+              {" "}Harsola
             </motion.span>
           </motion.h1>
 
