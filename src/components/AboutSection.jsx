@@ -69,7 +69,7 @@ export const AboutSection = () => {
               </motion.a>
 
               <motion.a
-                href="https://drive.google.com/file/d/15kXBArhApjdJM4AEIcqXorr9_yXnMZhx/view?usp=drive_link"
+                href="https://drive.google.com/file/d/120Syo4z6PuSjbQRl57rr1eLFSp-teKQg/view?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
