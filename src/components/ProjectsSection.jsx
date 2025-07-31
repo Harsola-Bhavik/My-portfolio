@@ -4,33 +4,53 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    title: "Nike Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project2.png",
-    tags: ["React", "TailwindCSS"],
-    demoUrl: "https://nike-landing-page-bhautik.vercel.app/",
-    githubUrl: "https://github.com/bhautikrathod9/nike-landing-page",
+    title: "Netflix clone",
+    description: "A sleek Netflix clone built with pure HTML and CSS, showcasing responsive design and modern layout techniques.",
+    image: "/projects/image.png",
+    tags: ["HTML5", "CSS3"],
+    demoUrl: "https://responsive-netflix-website-using-ht.vercel.app/",
+    githubUrl: "https://github.com/Harsola-Bhavik/Responsive-Netflix-website-using-HTML-and-CSSe",
   },
   {
     id: 2,
-    title: "HRMS",
+    title: "UI / UX designs",
     description:
-      "Built a full-stack HRMS web app with JWT-based authentication, Cloudinary image uploads, and PostgreSQL-backed employee management.",
-    image: "/projects/project4.png",
-    tags: ["React.js", "Postgres", "Node.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "Designed and prototyped user-friendly UI/UX layouts, focusing on clean visuals, intuitive navigation, and responsive interfaces.",
+    image: "/projects/image1.png",
+    tags: ["Figma"],
+    demoUrl: "https://github.com/Harsola-Bhavik/UI-UX",
+    githubUrl: "https://github.com/Harsola-Bhavik/UI-UX",
   },
-  // {
-  //   id: 3,
-  //   title: "E-commerce Platform",
-  //   description:
-  //     "Full-featured e-commerce platform with user authentication and payment processing.",
-  //   image: "/projects/project3.png",
-  //   tags: ["React", "Node.js", "Stripe"],
-  //   demoUrl: "#",
-  //   githubUrl: "#",
-  // },
+  {
+    id: 3,
+    title: "Dev-Connector",
+    description:
+      "Designed a platform for developers to share projects and connect, focusing on clean UI, intuitive user flows, and engaging social media-inspired layouts.",
+    image: "/projects/project2.png",
+    tags: ["React.js", "Node.js", "MongoDB"],
+    demoUrl: "https://github.com/Harsola-Bhavik/Dev-Connector",
+    githubUrl: "https://github.com/Harsola-Bhavik/Dev-Connector",
+  },
+  {
+    id: 4,
+    title: "ClinicAi-voice-agent",
+    description:
+      "Built an AI-powered voice assistant for clinics, focusing on clear conversational UI, smooth voice interactions, and an intuitive, patient-friendly interface.",
+    image: "/projects/image3.png",
+    tags: ["React.js","Tailwind css", "Next.js", "Firebase"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Harsola-Bhavik/ClinicAi-voice-agent-",
+  },
+  {
+    id: 5,
+    title: "AI Resume Generator",
+    description:
+      "Developed an AI-driven resume generator that creates professional, customizable templates with a clean, user-friendly interface for seamless resume building.",
+    image: "/projects/project4.png",
+    tags: ["React.js","Tailwind css", "Node.js", "MongoDB"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Harsola-Bhavik/AI-Resume-Generator",
+  },
 ];
 
 export const ProjectsSection = () => {
