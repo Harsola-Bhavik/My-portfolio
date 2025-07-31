@@ -121,7 +121,7 @@ export const ProjectsSection = () => {
           <motion.a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/bhautikrathod9"
+            href="https://github.com/Harsola-Bhavik"
             whileInView={{ scale: 1.05 }}
             initial={{ scale: 1 }}
             transition={{ duration: 0.3 }}

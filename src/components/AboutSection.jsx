@@ -53,9 +53,7 @@ export const AboutSection = () => {
               viewport={{ once: false, amount: 0.3 }} // Set once to false
               transition={{ duration: 0.5, delay: 0.8 }}
             >
-              Currently deepening my Data Structures and Algorithms knowledge to write 
-              optimized code and tackle technical challenges with confidence. Every project 
-              is an opportunity to level up my skills.
+              Currently deepening my UI/UX design skills to craft intuitive, user-centered interfaces and solve real-world design challenges. Every project is an opportunity to refine my creativity and design thinking.
             </motion.p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -117,11 +115,10 @@ export const AboutSection = () => {
                   <Cpu className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Problem Solving</h4>
-                  <p className="text-muted-foreground">
-                    Actively strengthening my DSA knowledge to write optimized algorithms
-                    and solve complex coding challenges efficiently.
-                  </p>
+                <h4 className="font-semibold text-lg">Design Thinking</h4>
+                <p className="text-muted-foreground">
+                  Actively refining my UI/UX skills to create intuitive, visually appealing, and user-focused designs.
+                </p>
                 </div>
               </div>
             </motion.div>

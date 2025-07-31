@@ -78,7 +78,9 @@ export const HeroSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            I craft stellar web experiences using modern technologies. With strong expertise in both frontend and backend development, I build high-performance, scalable, and visually appealing applications. Additionally, I'm sharpening my Data Structures and Algorithms (DSA) skills to strengthen my problem-solving abilities.
+            a web developer passionate about building modern, responsive, and user-friendly web applications.
+            I’m currently pursuing B.Tech in Computer Science at Parul University, and I enjoy working with React.js, MongoDB, and JavaScript to turn ideas into real projects.
+            I love creating solutions that combine functionality with great design and aim to keep learning and improving every day.
           </motion.p>
 
           <motion.div
