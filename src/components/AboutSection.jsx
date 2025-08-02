@@ -76,7 +76,7 @@ export const AboutSection = () => {
                 viewport={{ once: false, amount: 0.3 }} // Set once to false
                 transition={{ duration: 0.5, delay: 1.2 }}
               >
-                Download CV
+                Download Resume/CV
               </motion.a>
             </div>
           </div>

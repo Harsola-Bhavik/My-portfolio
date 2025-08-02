@@ -11,8 +11,9 @@ const skills = [
   { name: "Git & GitHub", level: 85, category: "tools" },
   { name: "VS Code", level: 90, category: "tools" },
   { name: "Touch Typing", level: 80, category: "other" },
-  { name: "Basic Java", level: 65, category: "other" },
+  { name: "Core Java", level: 65, category: "other" },
   { name: "DSA", level: 50, category: "other" },
+  { name: "SQL", level: 65, category: "other" },
 ];
 
 const categories = ["all", "web","Graphic designing", "tools", "other"];
