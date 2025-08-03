@@ -26,7 +26,7 @@ const projects = [
     title: "Dev-Connector",
     description:
       "Designed a platform for developers to share projects and connect, focusing on clean UI, intuitive user flows, and engaging social media-inspired layouts.",
-    image: "/projects/project2.png",
+    image: "",
     tags: ["React.js", "Node.js", "MongoDB"],
     demoUrl: "https://github.com/Harsola-Bhavik/Dev-Connector",
     githubUrl: "https://github.com/Harsola-Bhavik/Dev-Connector",
