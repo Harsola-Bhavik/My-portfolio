@@ -3,8 +3,8 @@ import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 
 const skills = [
-  { name: "Web Development", level: 85, category: "web" },
-  { name: "React.js", level: 80, category: "web" },
+  { name: "Frontend Development", level: 85, category: "web" },
+  { name: "React.js", level: 85, category: "web" },
   { name: "UI/UX Design", level: 90, category: "Graphic designing" },
   { name: "Figma", level: 90, category: "Graphic designing" },
   { name: "Adobe photoshop", level: 90, category: "Graphic designing" },
@@ -12,8 +12,9 @@ const skills = [
   { name: "VS Code", level: 90, category: "tools" },
   { name: "Touch Typing", level: 80, category: "other" },
   { name: "Core Java", level: 65, category: "other" },
-  { name: "DSA", level: 50, category: "other" },
-  { name: "SQL", level: 65, category: "other" },
+  { name: "Tailwindcss", level: 80, category: "other" },
+  { name: "MongoDB", level: 50, category: "other" },
+  { name: "Vercel", level: 90, category: "other" },
 ];
 
 const categories = ["all", "web","Graphic designing", "tools", "other"];
