@@ -1,18 +1,16 @@
 import {
   Github,
-  Instagram,
   Linkedin,
   Mail,
   MapPin,
   Phone,
   Send,
-  Twitch,
-  Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import emailjs from "emailjs-com";
 
 export const ContactSection = () => {
   const { toast } = useToast();
@@ -20,16 +18,32 @@ export const ContactSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     setIsSubmitting(true);
 
-    setTimeout(() => {
-      toast({
-        title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
-      });
-      setIsSubmitting(false);
-    }, 1500);
+    // Send form data using EmailJS
+    emailjs
+      .sendForm(
+        "service_8iahz8t", // Replace with your EmailJS Service ID
+        "template_9sen7ca", // Replace with your EmailJS Template ID
+        e.target,
+        "8yb3z_OBSb5qQd_GA" // Replace with your EmailJS User ID
+      )
+      .then(
+        (result) => {
+          toast({
+            title: "Message sent!",
+            description: "Thank you for your message. I'll get back to you soon.",
+          });
+          setIsSubmitting(false);
+        },
+        (error) => {
+          toast({
+            title: "Error",
+            description: "Something went wrong. Please try again later.",
+          });
+          setIsSubmitting(false);
+        }
+      );
   };
 
   return (
@@ -38,7 +52,7 @@ export const ContactSection = () => {
       className="py-24 px-4 relative bg-secondary/30"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: false, amount: 0.3 }} // Allow animation to trigger every time it comes into view
+      viewport={{ once: false, amount: 0.3 }}
       transition={{ duration: 0.5 }}
     >
       <div className="container mx-auto max-w-5xl">
@@ -83,7 +97,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:harsolabhavik56@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     harsolabhavik56@gmail.com
@@ -97,7 +111,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:+916356963817"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     +91 63569 63817
