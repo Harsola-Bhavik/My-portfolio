@@ -31,7 +31,7 @@ export const AboutSection = () => {
               viewport={{ once: false, amount: 0.3 }} // Set once to false
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              Aspiring Full-Stack Developer & Problem Solver
+              Aspiring Web-Developer & Problem Solver
             </motion.h3>
 
             <motion.p
@@ -69,7 +69,7 @@ export const AboutSection = () => {
               </motion.a>
 
               <motion.a
-                href="https://drive.google.com/file/d/1Ves1QrVIJ19BeKuJYsOWF7m7jyKKzds7/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1jYdij5SzeCL3T0aybtjXgWZIq4faLTVZ/view?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -94,7 +94,7 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Full-Stack Development</h4>
+                  <h4 className="font-semibold text-lg">Web Development</h4>
                   <p className="text-muted-foreground">
                     Building responsive web applications with modern frameworks like React and Node.js,
                     while continuously improving my backend architecture skills.
